@@ -1,0 +1,20 @@
+{
+  "name": "node-sql-migrate",
+  "version": "1.0.0",
+  "description": "An sql migration tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'jest --runInBand'"
+  },
+  "keywords": [
+    "sql",
+    "postgres",
+    "migrate",
+    "migration",
+    "migration",
+    "tool"
+  ],
+  "author": "Adesuwa Dawodu",
+  "license": "ISC",
+  "git-repository": "https://github.com/littlezigy/node-sql-migrate.git"
+}
