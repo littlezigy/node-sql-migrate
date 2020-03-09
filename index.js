@@ -11,7 +11,7 @@ const db = {
   connectionTimeoutMillis: dbconfig.connectionTimeoutMillis
 }
 
-let folderpath = path.join(__dirname, "../SQL/migrations");
+let folderpath = path.join(path.dirname(require.main.filename), "/SQL/migrations");
 
 pool = new Pool(db);
 const readdir = util.promisify(fs.readdir);
