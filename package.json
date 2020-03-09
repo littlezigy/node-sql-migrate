@@ -1,6 +1,6 @@
 {
   "name": "node-sql-migrate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An sql migration tool",
   "main": "index.js",
   "scripts": {
